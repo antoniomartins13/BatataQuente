@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: #6a3135;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.container-bomba{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 80vh;
+}
+
+.img-bomba{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 5%;
+    left: 20px;
+}
+
+.letra-aleatoria{
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.tempo{
+    color: #fff;
+    font-size: 24px;
+}
+
+.score{
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d5ac05;
+}
+
+#input-palavra{
+    justify-self: flex-end;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    color: #000;
+    font-size: 34px;
+    font-weight: 600;
+    padding: 20px 15px;
+}
+
+.palavras-usadas{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: line-through;
+}
