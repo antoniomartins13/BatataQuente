@@ -47,6 +47,8 @@ const verificarPalavra = () => {
             return 'i'
         } else if(item == 'ô' || item == 'ó' || item == 'õ'){
             return 'o'
+        } else if(item == 'ç'){
+            return 'c'
         } else {
             return item
         }
@@ -79,7 +81,7 @@ const verificarPalavra = () => {
 
 //Coloca o enter para fazaer a função verificar palavra
 bodyHtml.addEventListener('keydown',(e) => {
-    if(e.key == 'Enter'){
+    if(e.key == 'Enter' || e.keyCode == 32){
     //e.preventDefault() não deixa da enter com o input vazio
      e.preventDefault()
      verificarPalavra()

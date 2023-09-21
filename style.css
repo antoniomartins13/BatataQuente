@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    scrollbar-width: 0;
+    scrollbar-width: 0px;
 }
 
 body{
+    background-image: url('./assets/bomba.png');
+    background-position: top left 62%;
+    background-repeat: no-repeat;
     background-color: #6a3135;
     display: flex;
     align-items: center;
@@ -18,7 +23,7 @@ body{
     align-content: center;
     flex-direction: column;
     position: relative;
-    height: 80vh;
+    height: 70vh;
 }
 
 .img-bomba{
@@ -34,7 +39,7 @@ body{
     color: #fff;
     text-transform: uppercase;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
 }
 
@@ -63,12 +68,14 @@ body{
 
 .palavras-usadas{
     width: 300px;
+    padding: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     font-size: 24px;
-    color: #fff;
+    font-weight: 800;
+    color: #000;
     text-decoration: line-through;
 }

@@ -238196,6 +238196,7 @@ umbilicais
 umbilical
 umbrais
 umbral
+umbu
 umbuzeiro
 umbuzeiros
 umedeca
